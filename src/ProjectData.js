@@ -3,7 +3,7 @@ const projectArray = [
     {
         id: 1,
         githubLink: "https://github.com/svanardenne/full-stack-course-app",
-        projectLink: "https://www.shaunvanardenne.ca/full-stack-course-app/",
+        projectLink: "www.shaunvanardenne.ca/full-stack-course-app/",
         projectTitle: "Full-Stack Course Management App",
         projectImage: "full-stack-course-app.png",
         projectText: `This project is a demonstration of a full stack CRUD app using React on the front end, node/express on the back end, and an sqlite database.
@@ -36,7 +36,7 @@ const projectArray = [
     {
         id: 3,
         githubLink: "https://github.com/svanardenne/elder-gods-brewing",
-        projectLink: "https://www.shaunvanardenne.ca/elder-gods-brewing/",
+        projectLink: "www.shaunvanardenne.ca/elder-gods-brewing/",
         projectTitle: "React.js Landing Page",
         projectImage: "elder-gods-landing.png",
         projectText: 'Landing page created with React.js and Bootstrap',
@@ -49,7 +49,7 @@ const projectArray = [
     {
         id: 4,
         githubLink: "https://github.com/svanardenne/Random-User-API-client",
-        projectLink: "https://www.shaunvanardenne.ca/Random-User-API-client/",
+        projectLink: "www.shaunvanardenne.ca/Random-User-API-client/",
         projectTitle: "Employee Directory",
         projectImage: "employee-directory.png",
         projectText: 'An employee directory with information generated randomly from randomuser.me using the Fetch API',
@@ -62,7 +62,7 @@ const projectArray = [
     {
         id: 5,
         githubLink: "https://github.com/svanardenne/Phrase-Hunter",
-        projectLink: "https://www.shaunvanardenne.ca/Phrase-Hunter/",
+        projectLink: "www.shaunvanardenne.ca/Phrase-Hunter/",
         projectTitle: "Phrase Hunter",
         projectImage: "fs-project-4.png",
         projectText: 'Word guessing game created using JavaScript classes',
@@ -75,7 +75,7 @@ const projectArray = [
     {
         id: 6,
         githubLink: "https://github.com/svanardenne/student-directory",
-        projectLink: "https://www.shaunvanardenne.ca/student-directory/",
+        projectLink: "www.shaunvanardenne.ca/student-directory/",
         projectTitle: "Student Directory",
         projectImage: "fs-project-2.png",
         projectText: 'A student directory using data pagination and filtering techniques',
@@ -88,7 +88,7 @@ const projectArray = [
     {
         id: 7,
         githubLink: "https://github.com/svanardenne/web-dashboard",
-        projectLink: "https://www.shaunvanardenne.ca/web-dashboard/",
+        projectLink: "www.shaunvanardenne.ca/web-dashboard/",
         projectTitle: "Dashboard",
         projectImage: "project-7.png",
         projectText: 'A dashboard designed with focus on CSS grid, CSS flexbox, Chart.js, and overall Javascript interactivity.',
@@ -102,7 +102,7 @@ const projectArray = [
     {
         id: 8,
         githubLink: "https://github.com/svanardenne/lightbox-photo-gallery",
-        projectLink: "https://www.shaunvanardenne.ca/lightbox-photo-gallery/",
+        projectLink: "www.shaunvanardenne.ca/lightbox-photo-gallery/",
         projectTitle: "Interactive Photo Gallery",
         projectImage: "project-5.png",
         projectText: 'An interactive photo gallery utilizing Jquery, Sass, and a Lightbox plugin',
@@ -117,7 +117,7 @@ const projectArray = [
     {
         id: 9,
         githubLink: "https://github.com/svanardenne/random-quote-generator",
-        projectLink: "https://www.shaunvanardenne.ca/random-quote-generator/",
+        projectLink: "www.shaunvanardenne.ca/random-quote-generator/",
         projectTitle: "Random Quote Generator",
         projectImage: "fs-project-1.png",
         projectText: 'A random quote generator using arrays, object literals; complete with timer',
@@ -130,7 +130,7 @@ const projectArray = [
     {
         id: 10,
         githubLink: "https://github.com/svanardenne/online-registration-form",
-        projectLink: "https://www.shaunvanardenne.ca/online-registration-form/",
+        projectLink: "www.shaunvanardenne.ca/online-registration-form/",
         projectTitle: "Online Registration Form",
         projectImage: "fullstack-project-3.png",
         projectText: 'A responsive form using JavaScript validation',
