@@ -36,7 +36,7 @@ function App() {
   return (
     <HashRouter>
       <ScrollToTop>
-        <div className="App">
+        <div className="App noselect">
           <Navbar />
           <Switch>
             <Redirect exact path="/" to="/home" />

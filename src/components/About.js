@@ -16,7 +16,7 @@ const About = (props) => {
           <img src={ProfileImg} alt="Picture of Shaun on white background" />
           <div>
             <h2>About Me</h2>
-            <p>I'm a Full Stack Developer residing in Abbotsford, British Columbia.  
+            <p className="select">I'm a Full Stack Developer residing in Abbotsford, British Columbia.  
             I strive to make clean, responsive, and intuitive websites and user interfaces  
             while maitaining code which is easy to dive into!  
             <Link to="/projects" className="bio-link">  Check out my work

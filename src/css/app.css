@@ -20,9 +20,6 @@
   overflow: hidden;
   transition: height 0.5s ease;
 }
-.link-wrapper a:first-child {
-  padding-top: 24px;
-}
 
 .nav-link {
   color: #e0e0e0;
@@ -941,11 +938,31 @@ h6 {
 ********* Helpers *********
 **************************/
 .visible {
-  height: 220px;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .noselect {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
   user-select: none;
+  /* Standard */
+}
+
+.select {
+  -webkit-user-select: text;
+  /* Safari */
+  -moz-user-select: text;
+  /* Firefox */
+  -ms-user-select: text;
+  /* IE10+/Edge */
+  user-select: text;
+  /* Standard */
 }
 
 /*CSS used to create fading animations on scroll*/

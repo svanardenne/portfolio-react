@@ -47,9 +47,9 @@ const Modal = (props) => {
         <div>
           <h2>{project.projectTitle}</h2>
           <div className="modal-details">
-            <p>{project.projectText}</p>
+            <p className="select">{project.projectText}</p>
             <h3>Technology Used</h3>
-            <ul className="modal-tech">
+            <ul className="modal-tech select">
               {project.projectTech.map((project, i) => <li key={i}>{project}</li>)}
             </ul>
           </div>

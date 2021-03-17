@@ -16,9 +16,6 @@
   width: 100%;
   overflow: hidden;
   transition: height 0.5s ease;
-  & a:first-child {
-    padding-top: 24px;
-  }
 }
 .nav-link {
   color: $Base;
