@@ -2,6 +2,7 @@ import React from 'react';
 
 // Import FontAwesome Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 const Details = () => {
   return(
@@ -36,6 +37,7 @@ const Details = () => {
           <p>Focused on React, Node, Express, and SQL</p>
         </div>
       </div>
+      <Link className="button details-link" to="/about">About Me</Link>
     </section>
   );
 }
