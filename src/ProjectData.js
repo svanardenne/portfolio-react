@@ -1,145 +1,132 @@
 //Array with project card info
 const projectArray = [
-    {
-        id: 1,
-        githubLink: "https://github.com/svanardenne/full-stack-course-app",
-        projectLink: "/full-stack-course-app/",
-        projectTitle: "Full-Stack Course Management App",
-        projectImage: "full-stack-course-app.png",
-        projectText: `This project is a demonstration of a full stack CRUD app using React on the front end, node/express on the back end, and an sqlite database.
+  {
+    id: 1,
+    githubLink: "https://github.com/svanardenne/mern-stack-ecommerce-app-front",
+    projectLink: "https://unruffled-joliot-9df407.netlify.app/",
+    projectTitle: "Full Stack eCommerce Site",
+    projectImage: "ecommerce-app.png",
+    projectText: `This project is a demonstration of a full stack eCommerce app using React on the front end, node/express on the back end, and MongoDB for database.`,
+    projectTech: [
+      "React",
+      "Node",
+      "Express",
+      "Mongoose",
+      "MongoDB",
+      "JavaScript",
+    ],
+  },
+  {
+    id: 2,
+    githubLink: "https://github.com/svanardenne/full-stack-course-app",
+    projectLink: "/full-stack-course-app/",
+    projectTitle: "Full-Stack Course Management App",
+    projectImage: "full-stack-course-app.png",
+    projectText: `This project is a demonstration of a full stack CRUD app using React on the front end, node/express on the back end, and an sqlite database.
         The user is able to create an account, log in, and create, update and view courses.`,
-        projectTech: [
-            'React',
-            'Node',
-            'Express',
-            'Sequelize',
-            'SQLite',
-            'JavaScript'
-        ]
-    },
-    {
-        id: 2,
-        githubLink: "https://github.com/svanardenne/Library-CRUD-application",
-        projectLink: "https://stormy-waters-08943.herokuapp.com/",
-        projectTitle: "Library CRUD Application",
-        projectImage: "library-crud-application.png",
-        projectText: 'A CRUD application for libraries. The user can view, add, update, or remove items from a library database.',
-        projectTech: [
-            'Node',
-            'Express',
-            'Pug',
-            'Sequelize',
-            'SQLite',
-            'JavaScript',
-        ]
-    },
-    {
-        id: 3,
-        githubLink: "https://github.com/svanardenne/elder-gods-brewing",
-        projectLink: "/elder-gods-brewing/",
-        projectTitle: "React.js Landing Page",
-        projectImage: "elder-gods-landing.png",
-        projectText: 'Landing page created with React.js and Bootstrap',
-        projectTech: [
-            'React',
-            'Bootstrap',
-            'JavaScript'
-        ]
-    },
-    {
-        id: 4,
-        githubLink: "https://github.com/svanardenne/Random-User-API-client",
-        projectLink: "/Random-User-API-client/",
-        projectTitle: "Employee Directory",
-        projectImage: "employee-directory.png",
-        projectText: 'An employee directory with information generated randomly from randomuser.me using the Fetch API',
-        projectTech: [
-            'JavaScript',
-            'HTML',
-            'CSS'
-        ]
-    },
-    {
-        id: 5,
-        githubLink: "https://github.com/svanardenne/Phrase-Hunter",
-        projectLink: "/Phrase-Hunter/",
-        projectTitle: "Phrase Hunter",
-        projectImage: "fs-project-4.png",
-        projectText: 'Word guessing game created using JavaScript classes',
-        projectTech: [
-            'JavaScript',
-            'HTML',
-            'CSS'
-        ]
-    },
-    {
-        id: 6,
-        githubLink: "https://github.com/svanardenne/student-directory",
-        projectLink: "/student-directory/",
-        projectTitle: "Student Directory",
-        projectImage: "fs-project-2.png",
-        projectText: 'A student directory using data pagination and filtering techniques',
-        projectTech: [
-            'JavaScript',
-            'HTML',
-            'CSS'
-        ]
-    },
-    {
-        id: 7,
-        githubLink: "https://github.com/svanardenne/web-dashboard",
-        projectLink: "/web-dashboard/",
-        projectTitle: "Dashboard",
-        projectImage: "project-7.png",
-        projectText: 'A dashboard designed with focus on CSS grid, CSS flexbox, Chart.js, and overall Javascript interactivity.',
-        projectTech: [
-            'JavaScript',
-            'Chart.js',
-            'HTML',
-            'CSS'
-        ]
-    },
-    {
-        id: 8,
-        githubLink: "https://github.com/svanardenne/lightbox-photo-gallery",
-        projectLink: "/lightbox-photo-gallery/",
-        projectTitle: "Interactive Photo Gallery",
-        projectImage: "project-5.png",
-        projectText: 'An interactive photo gallery utilizing Jquery, Sass, and a Lightbox plugin',
-        projectTech: [
-            'JavaScript',
-            'JQuery',
-            'Lightbox.js',
-            'Sass',
-            'HTML'
-        ]
-    },
-    {
-        id: 9,
-        githubLink: "https://github.com/svanardenne/random-quote-generator",
-        projectLink: "/random-quote-generator/",
-        projectTitle: "Random Quote Generator",
-        projectImage: "fs-project-1.png",
-        projectText: 'A random quote generator using arrays, object literals; complete with timer',
-        projectTech: [
-            'JavaScript',
-            'HTML',
-            'CSS'
-        ]
-    },
-    {
-        id: 10,
-        githubLink: "https://github.com/svanardenne/online-registration-form",
-        projectLink: "/online-registration-form/",
-        projectTitle: "Online Registration Form",
-        projectImage: "fullstack-project-3.png",
-        projectText: 'A responsive form using JavaScript validation',
-        projectTech: [
-            'JavaScript',
-            'HTML',
-            'CSS'
-        ]
-    }
-]
+    projectTech: [
+      "React",
+      "Node",
+      "Express",
+      "Sequelize",
+      "SQLite",
+      "JavaScript",
+    ],
+  },
+  {
+    id: 3,
+    githubLink: "https://github.com/svanardenne/Library-CRUD-application",
+    projectLink: "https://stormy-waters-08943.herokuapp.com/",
+    projectTitle: "Library CRUD Application",
+    projectImage: "library-crud-application.png",
+    projectText:
+      "A CRUD application for libraries. The user can view, add, update, or remove items from a library database.",
+    projectTech: [
+      "Node",
+      "Express",
+      "Pug",
+      "Sequelize",
+      "SQLite",
+      "JavaScript",
+    ],
+  },
+  {
+    id: 4,
+    githubLink: "https://github.com/svanardenne/elder-gods-brewing",
+    projectLink: "/elder-gods-brewing/",
+    projectTitle: "React.js Landing Page",
+    projectImage: "elder-gods-landing.png",
+    projectText: "Landing page created with React.js and Bootstrap",
+    projectTech: ["React", "Bootstrap", "JavaScript"],
+  },
+  {
+    id: 5,
+    githubLink: "https://github.com/svanardenne/Random-User-API-client",
+    projectLink: "/Random-User-API-client/",
+    projectTitle: "Employee Directory",
+    projectImage: "employee-directory.png",
+    projectText:
+      "An employee directory with information generated randomly from randomuser.me using the Fetch API",
+    projectTech: ["JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 6,
+    githubLink: "https://github.com/svanardenne/Phrase-Hunter",
+    projectLink: "/Phrase-Hunter/",
+    projectTitle: "Phrase Hunter",
+    projectImage: "fs-project-4.png",
+    projectText: "Word guessing game created using JavaScript classes",
+    projectTech: ["JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 7,
+    githubLink: "https://github.com/svanardenne/student-directory",
+    projectLink: "/student-directory/",
+    projectTitle: "Student Directory",
+    projectImage: "fs-project-2.png",
+    projectText:
+      "A student directory using data pagination and filtering techniques",
+    projectTech: ["JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 8,
+    githubLink: "https://github.com/svanardenne/web-dashboard",
+    projectLink: "/web-dashboard/",
+    projectTitle: "Dashboard",
+    projectImage: "project-7.png",
+    projectText:
+      "A dashboard designed with focus on CSS grid, CSS flexbox, Chart.js, and overall Javascript interactivity.",
+    projectTech: ["JavaScript", "Chart.js", "HTML", "CSS"],
+  },
+  {
+    id: 9,
+    githubLink: "https://github.com/svanardenne/lightbox-photo-gallery",
+    projectLink: "/lightbox-photo-gallery/",
+    projectTitle: "Interactive Photo Gallery",
+    projectImage: "project-5.png",
+    projectText:
+      "An interactive photo gallery utilizing Jquery, Sass, and a Lightbox plugin",
+    projectTech: ["JavaScript", "JQuery", "Lightbox.js", "Sass", "HTML"],
+  },
+  {
+    id: 10,
+    githubLink: "https://github.com/svanardenne/random-quote-generator",
+    projectLink: "/random-quote-generator/",
+    projectTitle: "Random Quote Generator",
+    projectImage: "fs-project-1.png",
+    projectText:
+      "A random quote generator using arrays, object literals; complete with timer",
+    projectTech: ["JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 11,
+    githubLink: "https://github.com/svanardenne/online-registration-form",
+    projectLink: "/online-registration-form/",
+    projectTitle: "Online Registration Form",
+    projectImage: "fullstack-project-3.png",
+    projectText: "A responsive form using JavaScript validation",
+    projectTech: ["JavaScript", "HTML", "CSS"],
+  },
+];
 
 export default projectArray;
