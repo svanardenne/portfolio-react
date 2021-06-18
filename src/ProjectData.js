@@ -22,8 +22,7 @@ const projectArray = [
     projectLink: "/full-stack-course-app/",
     projectTitle: "Full-Stack Course Management App",
     projectImage: "full-stack-course-app.png",
-    projectText: `This project is a demonstration of a full stack CRUD app using React on the front end, node/express on the back end, and an sqlite database.
-        The user is able to create an account, log in, and create, update and view courses.`,
+    projectText: `This project is a demonstration of a full stack CRUD app using React on the front end, node/express on the back end, and an sqlite database.`,
     projectTech: [
       "React",
       "Node",
