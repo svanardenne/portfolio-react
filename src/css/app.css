@@ -590,7 +590,7 @@
   transition: opacity 0.5s ease; }
 
 .modal {
-  font-size: 0.8rem;
+  font-size: 1rem;
   position: relative;
   background-color: #e0e0e0;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -616,8 +616,7 @@
   .modal-details h3 {
     color: #222629; }
   .modal-details p {
-    padding-bottom: 23.4px;
-    border-bottom: 2px solid #6b6e70; }
+    padding-bottom: 23.4px; }
 
 .modal-tech {
   display: flex;
@@ -637,7 +636,7 @@
     margin-bottom: 10px; }
 
 .modal-img {
-  width: 70%;
+  width: 80%;
   height: auto;
   margin-top: 23.4px;
   margin-bottom: 15px; }
