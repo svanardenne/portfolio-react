@@ -374,6 +374,10 @@
   left: 0;
   right: 0;
 }
+.pagination-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .pagination-item,
 .next,
 .prev {
@@ -581,7 +585,7 @@
   }
   textarea {
     color: $Base;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: 10px 10px 150px 10px;
     width: 100%;
     background-color: $Primary-Light;
