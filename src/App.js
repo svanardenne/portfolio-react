@@ -1,27 +1,29 @@
 // Dependancy imports
-import React from 'react';
-import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // CSS Styling
-import './css/app.css';
+import "./css/app.css";
 
 // Import Components
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Higher-order component for providing context consumer
-import withContext from './Context';
+import withContext from "./Context";
 
+// Google Analytics Imports
+import ReactGA from "react-ga";
 
 // Import FontAwesome
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 library.add(fab, fas);
 
 // Components with context
@@ -30,9 +32,20 @@ const aboutWithContext = withContext(About);
 const ProjectsWithContext = withContext(Projects);
 const contactWithContext = withContext(Contact);
 
-
 // Main app
 function App() {
+  const initReactGA = () => {
+    ReactGA.initialize("UA-214237876-1");
+    ReactGA.pageview("test-init-pageview");
+  };
+
+  useEffect(() => {
+    initReactGA();
+  });
+
+  const TRACKING_ID = "UA-214237876-1";
+  ReactGA.initialize(TRACKING_ID);
+
   return (
     <HashRouter>
       <ScrollToTop>
