@@ -35,16 +35,14 @@ const contactWithContext = withContext(Contact);
 // Main app
 function App() {
   const initReactGA = () => {
-    ReactGA.initialize("UA-214237876-1");
+    const TRACKING_ID = "UA-214237876-1";
+    ReactGA.initialize(TRACKING_ID);
     ReactGA.pageview("test-init-pageview");
   };
 
   useEffect(() => {
     initReactGA();
   });
-
-  const TRACKING_ID = "UA-214237876-1";
-  ReactGA.initialize(TRACKING_ID);
 
   return (
     <HashRouter>
