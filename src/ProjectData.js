@@ -3,7 +3,7 @@ const projectArray = [
   {
     id: 1,
     githubLink: "https://github.com/svanardenne/mern-stack-ecommerce-app-front",
-    projectLink: "https://unruffled-joliot-9df407.netlify.app/",
+    projectLink: "https://splendid-medovik-fe31cc.netlify.app/",
     projectTitle: "Full Stack eCommerce Site",
     projectImage: "ecommerce-app.png",
     projectText: `This project is a demonstration of a full stack eCommerce app using React on the front end, node/express on the back end, and MongoDB for database.`,
